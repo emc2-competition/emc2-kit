@@ -1,0 +1,21 @@
+{
+  "acceptance_length": 2.8023814806597143,
+  "acceptance_by_domain": {
+    "chat": 3.0752094829348047,
+    "code": 3.7726477789436865,
+    "math": 3.655878859857482,
+    "longform": 2.363773395302098
+  },
+  "tpot_median_s": 0.013024387585028968,
+  "ttft_median_s": 0.10141431679949164,
+  "memory_bytes": 916507648,
+  "weight_bytes": 849398784,
+  "kv_cache_bytes": 67108864,
+  "decode_total_s": 1262.4698103312403,
+  "num_speculative_tokens": 3,
+  "max_model_len": 16384,
+  "prompts": 160,
+  "repeats": 1,
+  "hardware": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "created": "2026-10-18 21:50:43"
+}

@@ -1,0 +1,5 @@
+{
+  "team_id": "your-team-name",
+  "method_description": "One line: what your draft is and how you trained it",
+  "training_data": "One line: what data you trained on"
+}

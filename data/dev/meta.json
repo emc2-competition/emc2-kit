@@ -1,0 +1,19 @@
+{
+  "target_name": "Qwen3.8-27B",
+  "target_repo": "Qwen/Qwen3.8-27B",
+  "target_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "target_config_sha256": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+  "stop_token_ids": [
+    248046,
+    248044
+  ],
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_model_len": 16384,
+  "raw_prompts_sha256": "4c6e9cd2056b3cdd007e7420c32b9dc8bd3a29766f40c09dae870f3fd32e7876",
+  "num_prompts": 160,
+  "num_warmup": 8,
+  "longest_prompt_tokens": 441,
+  "created": "2026-10-18 18:44:07"
+}

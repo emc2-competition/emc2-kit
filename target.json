@@ -1,0 +1,19 @@
+{
+  "_comment": "Everything about the target model lives in this file. Organizers regenerate the dev data and image whenever it changes.",
+  "name": "Qwen3.8-27B",
+  "repo": "Qwen/Qwen3.8-27B",
+  "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "dtype": "bfloat16",
+  "local_dir": "Qwen3.8-27B",
+  "serve_args": ["--language-model-only"],
+  "chat_template_kwargs": {"enable_thinking": false},
+  "stop_token_ids": null,
+  "allowed_methods": ["mtp", "eagle3", "draft_model", "medusa"],
+  "baseline": {
+    "source": "target_mtp",
+    "method": "mtp",
+    "tensor_prefix": "mtp.",
+    "local_dir": "baseline-mtp",
+    "description": "The target's built-in MTP head, extracted into its own submission folder"
+  }
+}
